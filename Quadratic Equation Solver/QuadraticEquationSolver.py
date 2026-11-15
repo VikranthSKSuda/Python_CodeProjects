@@ -9,3 +9,6 @@ c = int(input("C: "))
 _2a = 2 * a
 _bsquared = b ** 2
 _4ac = 4 * a * c
+discrimintant = _bsquared - _4ac
+numerator_pos = -b + math.sqrt(discrimintant)
+numerator_neg = -b - math.sqrt(discrimintant)
