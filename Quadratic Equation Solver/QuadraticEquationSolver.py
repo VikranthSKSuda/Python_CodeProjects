@@ -16,3 +16,7 @@ numerator_neg = -b - math.sqrt(discrimintant)
 if discrimintant < 0:
     print("No x-ints")
     print("No Solution")
+elif discrimintant == 0:
+    value_1 = -b / _2a
+    print("1 x-ints")
+    print(f"There is only one value and it is {value_1}.")
