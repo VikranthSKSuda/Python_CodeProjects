@@ -2,7 +2,7 @@ import math
 
 print("This Program Solves the Quadratic Equation And Tells You the amount of zeros:")
 
-a = int(input("A: "))
+a = int(input("A: ")) #Need to use values from standard form
 b = int(input("B: "))
 c = int(input("C: "))
 
