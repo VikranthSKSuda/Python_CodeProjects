@@ -6,10 +6,10 @@ a = int(input("A: ")) #Need to use values from standard form
 b = int(input("B: "))
 c = int(input("C: "))
 
-_2a = 2 * a
-_bsquared = b ** 2
+_2a = 2 * a                                    #Denominator
+_bsquared = b ** 2                                
 _4ac = 4 * a * c
-discrimintant = _bsquared - _4ac
+discrimintant = _bsquared - _4ac                #Discriminant Value Stored
 numerator_pos = -b + math.sqrt(discrimintant)
 numerator_neg = -b - math.sqrt(discrimintant)
 
