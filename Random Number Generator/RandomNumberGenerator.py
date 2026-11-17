@@ -11,7 +11,7 @@ while run:
     amount_guesses += 1
     
     if guess_number > max_num or guess_number < min_num:
-        print("I AM GOING TO LEAK YOUR CVV TO THE IRS, ENTER A GOOD NUMBER!")
+        print("I AM GOING TO LEAK YOUR CVV TO THE DARKWEB OR, ENTER A GOOD NUMBER!")
     elif guess_number != random_number:
         print(f"Try again! Total guesses: {amount_guesses}")
     elif guess_number == random_number:
