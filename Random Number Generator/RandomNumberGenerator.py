@@ -7,3 +7,5 @@ amount_guesses = 0
 run = True
 
 while run:
+    guess_number = int(input(f"Guess a number between {min_num} and {max_num}: "))
+    amount_guesses += 1
