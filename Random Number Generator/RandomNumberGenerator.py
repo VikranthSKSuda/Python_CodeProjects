@@ -14,3 +14,5 @@ while run:
         print("I AM GOING TO LEAK YOUR CVV TO THE IRS, ENTER A GOOD NUMBER!")
     elif guess_number != random_number:
         print(f"Try again! Total guesses: {amount_guesses}")
+    elif guess_number == random_number:
+        print
