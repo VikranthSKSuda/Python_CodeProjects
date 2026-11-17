@@ -15,5 +15,5 @@ while run:
     elif guess_number != random_number:
         print(f"Try again! Total guesses: {amount_guesses}")
     elif guess_number == random_number:
-        print(f"WOW! YOu Got IT in {amount_guesses} guesses!")
+        print(f"WOW! You got it in {amount_guesses} guesses!")
         run = False
